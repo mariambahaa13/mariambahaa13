@@ -38,5 +38,5 @@ While $L_h$ is only 120 mm, a **500 mm domain** was selected for three reasons:
 **Mesh Specifications:**
 * **Type:** Structured Hexahedral
 * **Inflation Layers:** 5 Layers with 1.2 Growth Rate
-* **Total Elements:** 22026
-* **Total Nodes:** 21004
+* **Total Elements:** 21004
+* **Total Nodes:** 22026
