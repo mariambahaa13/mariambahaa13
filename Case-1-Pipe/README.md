@@ -27,7 +27,7 @@ $$L_h = 0.06 \cdot 100 \cdot 0.02 = 0.12 \text{ m (120 mm)}$$
 ## 3. Mesh Quality Statistics
 ![Mesh Resolution](Mesh_View.png)
 ![Orthogonal Quality](Mesh_OrthogonalQuality.png)
-![Aspect Ratio](Mesh AspectRatio.png) 
+![Aspect Ratio](Mesh_AspectRatio.png)
 * **Type:** Structured Hexahedral
 * **Inflation Layers:** 5 Layers at the Wall
 * **Min Orthogonal Quality:** 0.78 (Excellent)
