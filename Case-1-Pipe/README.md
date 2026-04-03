@@ -22,7 +22,11 @@ $$L_h \approx 0.06 \cdot Re \cdot D$$
 **Calculation:**
 $$L_h = 0.06 \cdot 100 \cdot 0.02 = 0.12 \text{ m (120 mm)}$$
 
-**Engineering Decision:** The domain length was set to **500 mm**. This ensures the measurement point is far beyond the $120 \text{ mm}$ entrance region, guaranteeing a fully developed parabolic profile for validation.
+### C. Engineering Rationale for 500 mm Length
+While $L_h$ is only 120 mm, a **500 mm domain** was selected for three reasons:
+1. **Validation Stability:** Provides 380 mm of "Stationary Flow" to confirm the parabolic profile remains constant.
+2. **Visual Contrast:** Allows for a clear visual "story" in the velocity contours, showing the transformation from a flat inlet to a parabola.
+3. **Boundary Interference:** Prevents outlet pressure fluctuations from affecting the measurement zone.
 
 ## 3. Mesh Quality Statistics
 ![Mesh Resolution](Mesh_View.png)
