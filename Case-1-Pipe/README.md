@@ -16,7 +16,7 @@ $$Re = \frac{\rho v D}{\mu}$$
 
 ### B. Hydrodynamic Entrance Length ($L_h$)
 The distance required for the flow to stabilize:
-$$L_h \approx 0.05 \cdot Re \cdot D = 0.12 \text{ m (120 mm)}$$
+$$L_h \approx 0.06 \cdot Re \cdot D = 0.12 \text{ m (120 mm)}$$
 **Design Decision:** The pipe length was set to **500 mm** to ensure the flow is fully developed for validation.
 
 ## 3. Mesh Quality Statistics
