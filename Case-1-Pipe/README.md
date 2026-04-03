@@ -15,9 +15,13 @@ $$Re = \frac{\rho v D}{\mu}$$
 * **Result:** $Re = 100$ (Confirmed Laminar)
 
 ### B. Hydrodynamic Entrance Length ($L_h$)
-The distance required for the flow to stabilize:
-$$L_h \approx 0.06 \cdot Re \cdot D = 0.12 \text{ m (120 mm)}$$
-**Design Decision:** The pipe length was set to **500 mm** to ensure the flow is fully developed for validation.
+The distance required for the flow to become "Fully Developed" is calculated as:
+$$L_h \approx 0.06 \cdot Re \cdot D$$
+
+**Calculation:**
+$$L_h = 0.06 \cdot 100 \cdot 0.02 = 0.12 \text{ m (120 mm)}$$
+
+**Engineering Decision:** The domain length was set to **500 mm**. This ensures the measurement point is far beyond the $120 \text{ mm}$ entrance region, guaranteeing a fully developed parabolic profile for validation.
 
 ## 3. Mesh Quality Statistics
 * **Type:** Structured Hexahedral
