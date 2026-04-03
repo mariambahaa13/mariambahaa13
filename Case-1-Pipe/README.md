@@ -25,6 +25,7 @@ $$L_h = 0.06 \cdot 100 \cdot 0.02 = 0.12 \text{ m (120 mm)}$$
 **Engineering Decision:** The domain length was set to **500 mm**. This ensures the measurement point is far beyond the $120 \text{ mm}$ entrance region, guaranteeing a fully developed parabolic profile for validation.
 
 ## 3. Mesh Quality Statistics
+![Mesh Resolution](Mesh_Resolution.png)
 * **Type:** Structured Hexahedral
 * **Inflation Layers:** 5 Layers at the Wall
 * **Min Orthogonal Quality:** 0.78 (Excellent)
