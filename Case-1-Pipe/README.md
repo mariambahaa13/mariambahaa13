@@ -32,7 +32,7 @@ While $L_h$ is only 120 mm, a **500 mm domain** was selected for three reasons:
 
 | Mesh Detail (Inlet) | Orthogonal Quality | Aspect Ratio |
 | :---: | :---: | :---: |
-| ![Mesh Detail](Mesh__View.png) | ![Orthogonal](Mesh__OrthogonalQuality) | ![Aspect Ratio](Mesh__AspectRatio.png) |
+| ![Mesh Detail](Mesh__View.png) | ![Orthogonal](Mesh__OrthogonalQuality.png) | ![Aspect Ratio](Mesh__AspectRatio.png) |
 | *5 Inflation Layers at Wall* | *Min Quality: 0.77 (Excellent)* | *Max Ratio: 1.86 (Excellent)* |
 
 **Mesh Specifications:**
