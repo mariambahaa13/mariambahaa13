@@ -1,10 +1,29 @@
-# Case 1: Laminar Pipe Flow Verification
+# Case 1: Laminar Pipe Flow Verification (ANSYS Fluent)
 
-This project validates the accuracy of ANSYS Fluent against the Hagen-Poiseuille analytical solution.
+## 1. Project Objective
+To validate the accuracy of the ANSYS Fluent solver against the analytical Hagen-Poiseuille equations for internal laminar flow.
 
-### Technical Parameters:
-* **Velocity:** 0.005 m/s
-* **Reynolds Number:** 100
-* **Geometry:** 2D Axisymmetric (10mm x 500mm)
+## 2. Analytical Design (The Physics)
+Before simulating, the domain was designed using the following parameters to ensure a fully developed profile:
+
+### A. Reynolds Number (Re)
+$$Re = \frac{\rho v D}{\mu}$$
+* **Density ($\rho$):** 1000 kg/m³
+* **Velocity ($v$):** 0.005 m/s
+* **Diameter ($D$):** 0.02 m (20mm)
+* **Viscosity ($\mu$):** 0.001 Pa·s
+* **Result:** $Re = 100$ (Confirmed Laminar)
+
+### B. Hydrodynamic Entrance Length ($L_h$)
+The distance required for the flow to stabilize:
+$$L_h \approx 0.06 \cdot Re \cdot D = 0.12 \text{ m (120 mm)}$$
+**Design Decision:** The pipe length was set to **500 mm** to ensure the flow is fully developed for validation.
+
+## 3. Mesh Quality Statistics
+* **Type:** Structured Hexahedral
+* **Inflation Layers:** 5 Layers at the Wall
+* **Min Orthogonal Quality:** 0.78 (Excellent)
+* **Max Aspect Ratio:** 2.6 (Excellent)
 
 [Results and Plots Coming Soon]
+
