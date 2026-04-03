@@ -16,6 +16,7 @@ $$Re = \frac{\rho v D}{\mu}$$
 
 ### B. Hydrodynamic Entrance Length ($L_h$)
 The distance required for the flow to become "Fully Developed" is calculated as:
+
 $$L_h \approx 0.06 \cdot Re \cdot D$$
 
 **Calculation:**
